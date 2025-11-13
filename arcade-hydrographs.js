@@ -10,7 +10,8 @@ var oneFieldInfos = [];
 var sevFieldInfos = [];
 var thirFieldInfos = [];
 
-// create fs for MO gages
+// create fs for gages
+// Gage_Readings = related table containing height readings for all gages in HFL
 var fs = FeatureSetByRelationshipName($feature, "Gage_Readings");
 var oneFs = Filter(fs, 'Time >= @oneDay')
 var sevFs = Filter(fs, 'Time >= @sevDays')
@@ -110,3 +111,4 @@ return {
 else {
   return ("")
 }
+
