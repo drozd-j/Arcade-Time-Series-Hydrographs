@@ -63,7 +63,7 @@ return {
   mediaInfos: [
     {
       type: "linechart",
-      altText: "Recorded height in feet over the last 24 hours for Missouri Streamgages.",
+      altText: "Recorded height in feet over the last 24 hours.",
       title: "<p style='color:#2C486B;font-weight:300;margin:8px'>Last 24 Hours</p>",
       value: {
         fields: oneFieldInfos,
@@ -78,7 +78,7 @@ return {
     },
     {
       type: "linechart",
-      altText: "Recorded height in feet over the last 7 days for Missouri Streamgages.",
+      altText: "Recorded height in feet over the last 7 days.",
       title: "<p style='color:#2C486B;font-weight:300;margin:8px'>Last 7 Days</p>",
       value: {
         fields: sevFieldInfos,
@@ -93,7 +93,7 @@ return {
     },
     {
       type: "linechart",
-      altText: "Recorded height in feet over the last 30 days for Missouri Streamgages.",
+      altText: "Recorded height in feet over the last 30 days.",
       title: "<p style='color:#2C486B;font-weight:300;margin:8px'>Last 30 Days</p>",
       value: {
         fields: thirFieldInfos,
@@ -111,4 +111,5 @@ return {
 else {
   return ("")
 }
+
 
